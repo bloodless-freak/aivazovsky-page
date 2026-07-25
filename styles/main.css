@@ -1,5 +1,6 @@
 .home-section {
     text-align: center;
+    padding-bottom: 70px;
 }
 
 .home-title {
@@ -30,12 +31,10 @@
     .home-title {
         font-size: 32px;
         max-width: 250px;
-        /* margin: 66px 110px 24px 26px; */
     }
 
     .home-description {
         font-size: 14px;
-        /* margin: 0 110px 28px 26px; */
     }
 
 }
