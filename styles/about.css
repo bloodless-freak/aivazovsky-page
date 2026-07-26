@@ -1,6 +1,6 @@
 .about-section {
     background-color: var(--bg-main-grey);
-    padding: 60px 30px 100px;
+    padding: 56px 30px 100px;
     text-align: center;
     color: var(--color-main-black);
 }
@@ -8,7 +8,7 @@
 .about-title {
     font-weight: 700;
     font-size: 34px;
-    margin: 56px 0 42px;
+    margin: 0 0 42px;
 }
 
 .about-subtitle-en,
