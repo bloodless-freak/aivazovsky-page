@@ -6,14 +6,14 @@
 }
 
 .about-title {
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 34px;
     margin: 56px 0 42px;
 }
 
 .about-subtitle-en,
 .about-subtitle-ru {
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 18px;
     margin: 0 auto 11px;
     max-width: 780px;
@@ -21,7 +21,7 @@
 
 .about-description-en,
 .about-description-ru {
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 18px;
     margin: 0 auto 15px;
     text-align: justify;
