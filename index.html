@@ -38,6 +38,42 @@
         </div>
     </header>
 
+    <div class="mobile-navigation">
+        <label for="toggler-id">
+            <svg class="mobile-navigation-burger">
+                <use href="assets/sprites.svg#burger-icon" />
+            </svg>
+        </label>
+
+        <input type="checkbox" class="mobile-navigation-toggler" id="toggler-id">
+
+        <nav class="mobile-navigation-menu">
+            <ul class="mobile-navigation-list">
+                <li>
+                    <a href="#home-id" class="mobile-navigation-link">Home</a>
+                </li>
+                <li>
+                    <a href="#about-id" class="mobile-navigation-link">About</a>
+                </li>
+                <li>
+                    <a href="#history-id" class="mobile-navigation-link">History</a>
+                </li>
+                <li>
+                    <a href="#portfolio-id" class="mobile-navigation-link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contacts-id" class="mobile-navigation-link">Contacts</a>
+                </li>
+            </ul>
+
+            <label for="toggler-id">
+                <svg class="mobile-navigation-cross">
+                    <use href="assets/sprites.svg#cross-icon" />
+                </svg>
+            </label>
+        </nav>
+    </div>
+
     <main class="main">
         <section class="home-section" id="home-id">
             <div class="container">
@@ -97,31 +133,28 @@
     <footer class="contacts" id="contacts-id">
         <div class="container">
             <h2 class="contacts-title">Contacts</h2>
-            <button class="contacts-button">
-                <a href="https://en.wikipedia.org/wiki/Ivan_Aivazovsky" class="button-link"
-                    target="_blank">Wikipedia</a>
-            </button>
+            <a href="https://en.wikipedia.org/wiki/Ivan_Aivazovsky" class="contacts-link" target="_blank">Wikipedia</a>
 
             <address class="socials">
-                <a href="https://youtube.com" target="_blank">
+                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
                     <svg class="social-icon">
                         <use href="assets/sprites.svg#youtube-icon" />
                     </svg>
                 </a>
 
-                <a href="https://linkedin.com" target="_blank">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                     <svg class="social-icon">
                         <use href="assets/sprites.svg#linkedin-icon" />
                     </svg>
                 </a>
 
-                <a href="https://instagram.com" target="_blank">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                     <svg class="social-icon">
                         <use href="assets/sprites.svg#instagram-icon" />
                     </svg>
                 </a>
 
-                <a href="https://facebook.com" target="_blank">
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                     <svg class="social-icon">
                         <use href="assets/sprites.svg#facebook-icon" />
                     </svg>
